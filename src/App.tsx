@@ -1,11 +1,13 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { globalStyles } from './config/theme/app-theme';
+import { SafeAreaView } from 'react-native-safe-area-context';
+import { CalculadoraScreen } from './presentation/screens/CalculadoraScreen';
 
 const App = () => {
   return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
+    <SafeAreaView style={globalStyles.background}>
+      <CalculadoraScreen />
+    </SafeAreaView>
   );
 };
 
