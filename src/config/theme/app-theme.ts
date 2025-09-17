@@ -36,7 +36,6 @@ export const globalStyles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'flex-end',
     alignItems: 'center',
-    paddingVertical: 40,
   },
   textOperation: {
     color: COLORS.textPrimary,
